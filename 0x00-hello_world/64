@@ -1,0 +1,67 @@
+6-size.c: In function ‘main’:
+6-size.c:5:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    5 |  printf("    short int is %2d byte(s) \n", sizeof(short int));
+      |                           ~~^              ~~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:6:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    6 |  printf("          int is %2d byte(s) \n", sizeof(int));
+      |                           ~~^              ~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:7:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    7 |  printf("     long int is %2d byte(s) \n", sizeof(long int));
+      |                           ~~^              ~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:8:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    8 |  printf("   signed int is %2d byte(s) \n", sizeof(signed int));
+      |                           ~~^              ~~~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:9:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+    9 |  printf(" unsigned int is %2d byte(s) \n", sizeof(unsigned int));
+      |                           ~~^              ~~~~~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:11:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   11 |  printf("        float is %2d byte(s) \n", sizeof(float));
+      |                           ~~^              ~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:12:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   12 |  printf("       double is %2d byte(s) \n", sizeof(double));
+      |                           ~~^              ~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:13:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   13 |  printf("  long double is %2d byte(s) \n", sizeof(long double));
+      |                           ~~^              ~~~~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:15:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   15 |  printf("  signed char is %2d byte(s) \n", sizeof(signed char));
+      |                           ~~^              ~~~~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:16:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   16 |  printf("         char is %2d byte(s) \n", sizeof(char));
+      |                           ~~^              ~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
+6-size.c:17:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   17 |  printf("unsigned char is %2d byte(s) \n", sizeof(unsigned char));
+      |                           ~~^              ~~~~~~~~~~~~~~~~~~~~~
+      |                             |              |
+      |                             int            long unsigned int
+      |                           %2ld
